@@ -12,7 +12,7 @@ The application features an interactive beach layout, reservation management, oc
 
 ## 📸 Application Preview
 
-![Beach Reservation Dashboard](screenshots/dashboard.JPG)
+![Welcome Page](screenshots/welcome-page.JPG)
 
 *Interactive dashboard displaying beach spots, reservation availability, and daily occupancy statistics.*
 
