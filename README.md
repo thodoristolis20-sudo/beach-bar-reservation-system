@@ -1,49 +1,56 @@
 # 🏖️ Pachis Beach Bar Reservation System
 
-A web-based reservation management system developed for Pachis Beach Bar to help staff manage beach reservations, organize umbrella locations, and monitor daily availability.
+A web-based reservation management system developed for **Pachis Beach Bar** to manage beach reservations, organize umbrella locations, and monitor daily availability.
 
-**Developed and sold to a real business.**
+**💼 Developed and sold to a real business.**
 
-The application features an interactive beach layout, reservation management, occupancy statistics, and a dashboard designed to simplify daily beach bar operations.
+The application features an interactive beach layout, reservation management, occupancy statistics, and a centralized dashboard designed to simplify daily beach bar operations.
+
+🌐 **Live Application:** [Pachis Beach Bar Reservations](https://pachisbeachbarreservations.free.nf/index.php?i=2)
+
+---
 
 ## 📸 Application Preview
 
 ![Beach Reservation Dashboard](screenshots/dashboard.JPG)
 
+*Interactive dashboard displaying beach spots, reservation availability, and daily occupancy statistics.*
+
+---
+
 ## 📌 Project Overview
 
-The Pachis Beach Bar Reservation System was developed to address the practical needs of a beach bar reservation operation.
+The Pachis Beach Bar Reservation System was developed to address the practical needs of a real beach bar reservation operation.
 
 The application provides a visual representation of the beach, allowing staff to identify individual umbrella spots and monitor reservation availability for a selected date.
 
-Instead of relying exclusively on manual reservation tracking, staff can use a centralized dashboard to manage bookings and view important reservation statistics.
+Through a centralized dashboard, staff can view booking statistics, search for reservations, and manage the beach layout.
 
-This project was developed for a real business where I worked during the summer and was subsequently sold to the business.
+This project represents a real-world commercial application that I developed and sold to the business where I worked during the summer.
 
 ## ✨ Key Features
 
 ### 🏖️ Interactive Beach Layout
 - Visual representation of individual beach spots.
 - Numbered umbrellas for easy identification.
-- Color-coded visual indicators for beach spot status.
+- Color-coded indicators for beach spot status.
 - Support for different beach spot types, including VIP areas.
-- Interactive layout for organizing beach spots.
+- Interactive positioning of beach spots.
 
 ### 📅 Reservation Management
 - Manage reservations for specific dates.
-- Associate customers with individual beach spots.
+- Associate reservations with individual beach spots.
 - Search for reservations using customer information.
 - Organize and monitor daily bookings.
 - Track reservation availability through the dashboard.
 
 ### 📊 Reservation Dashboard
-- Total number of beach spots.
-- Number of reserved spots.
-- Number of free spots.
-- Occupancy percentage.
+- Overview of total beach spots.
+- Real-time reservation and availability statistics for the selected date.
+- Automatic occupancy percentage calculation.
 - Date selection for viewing reservations.
-- Reservation search functionality.
-- Staff-related sorting controls.
+- Customer search functionality.
+- Staff-related sorting options.
 
 ### 🔐 User Authentication
 - User login.
@@ -62,43 +69,54 @@ This project was developed for a real business where I worked during the summer 
 |------------|---------|
 | PHP | Backend application logic |
 | MySQL | Database management |
-| HTML5 | Page structure |
+| HTML5 | Page structure and forms |
 | CSS3 | Styling and layout |
 | JavaScript | Interactive interface functionality |
-| PDO | PHP database connectivity |
-| PHP Sessions | User authentication and session management |
+| PDO | Database connectivity |
+| PHP Sessions | Authentication and session management |
 
 ## 🏗️ Application Architecture
 
-The application uses a web-based client-server architecture.
+The application follows a client-server architecture.
 
-**Frontend:** HTML, CSS, and JavaScript provide the interface and interactive dashboard.
+- **Frontend:** HTML, CSS, and JavaScript provide the user interface and interactive dashboard.
+- **Backend:** PHP handles application logic, authentication, and reservation operations.
+- **Database:** MySQL stores application data, including users, reservations, and beach spots.
+- **Session Management:** PHP sessions maintain authenticated user sessions.
 
-**Backend:** PHP handles reservation operations, authentication, and application logic.
+## 🖥️ Screenshots
 
-**Database:** MySQL stores application data, including users, reservations, and beach spots.
+### Login Page
 
-**Authentication:** PHP sessions support authenticated access to the application.
+![Login Page](screenshots/login.JPG)
+
+### Beach Reservation Dashboard
+
+![Reservation Dashboard](screenshots/dashboard.JPG)
+
+### Welcome Page
+
+![Welcome Page](screenshots/welcome-page.JPG)
 
 ## 💼 Real-World Application
 
-This project was developed for Pachis Beach Bar, where I worked during the summer, and was sold to the business.
+This project was developed for Pachis Beach Bar, where I worked during the summer, and was subsequently sold to the business.
 
-The application demonstrates my ability to develop a practical software solution for a real business, translating operational requirements into a usable web application.
+It demonstrates my ability to translate practical business requirements into a working software solution.
 
-## 🚀 Future Improvements
+The project provided hands-on experience in developing a web application involving reservation management, database integration, authentication, and interactive user interfaces.
 
-Potential enhancements include:
+## 🚀 Potential Future Improvements
 
 - Reservation confirmation notifications.
 - More detailed booking reports.
-- Improved mobile usability.
 - Additional reservation analytics.
 - Enhanced user roles and permissions.
+- Further improvements to mobile usability.
 - Expanded administrative functionality.
 
 ## 👨‍💻 Developer
 
-Designed and developed by **Theodoros Tolis**.
+**Theodoros Tolis**
 
-A real-world web development project focused on beach reservation management and business operations.
+Designed and developed as a commercial web application for beach bar reservation management.
