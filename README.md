@@ -8,7 +8,7 @@ The application features an interactive beach layout, reservation management, oc
 
 ## 📸 Application Preview
 
-![dashboard.jpg)
+![Beach Reservation Dashboard](dashboard.jpg)
 
 ## 📌 Project Overview
 
